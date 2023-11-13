@@ -47,10 +47,9 @@ export const Login = () => {
             <span className="text-rose-500 font-extrabold">OpenForumz</span>
           </h1>
           <p className="pt-6 text-base w-auto sm:w-10/12 md:w-10/12 dark:text-neutral-400">
-            Plantilla de aplicación de página única (SPA) desarrollada con
-            Next.js, TypeScript y TailwindCSS. Personalizable y algunas
-            secciones para agregar información importante sobre un producto o un
-            servicio.
+          Join us in redefining social connectivity. <br/>
+          Our mission is to break down barriers, allowing users to actively shape and contribute to the evolution of their online space. <br/>
+          Embrace the power of open source and be a catalyst for positive change in the digital realm.
           </p>
           <div className="flex flex-auto pt-10 gap-2 min-w-[350px] justify-center sm:justify-start">
             <div>
@@ -62,11 +61,11 @@ export const Login = () => {
 
         <div className="flex items-center mt-12">
           <Image
-            src="/images/hero/hero.svg"
+            src="/images/hero/hero.png"
             alt="Image hero description"
             width={1025}
             height={662}
-            quality={75}
+            quality={100}
             sizes="100vw"
             priority
           />

@@ -7,6 +7,9 @@ import FirebaseConfig from './firebase-config.json'
 const cookies = new Cookies(null, { path: '/' });
 
 const firebaseConfig = FirebaseConfig;
+if (process.env.NODE_ENV != "development") {
+    firebaseConfig.authDomain = 'www.open-forumz.com';
+}
 
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
@@ -41,5 +44,5 @@ export const logoutUser = async () => {
         const errorMessage = error.message;
     });
 
-    Router.replace('/Login');
+    Router.replace('/login');
 }

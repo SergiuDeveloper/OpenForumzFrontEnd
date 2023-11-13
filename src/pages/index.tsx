@@ -1,10 +1,10 @@
-import { Login } from "../components/Login";
-import Layout from "../components/Layout";
+import { Main } from "../components/Main";
+import MainLayout from "@/components/MainLayout";
 
-export default function Home() {
+export default function IndexPage() {
   return (
-    <Layout>
-      <Login />
-    </Layout>
+    <MainLayout>
+      <Main />
+    </MainLayout>
   );
 }

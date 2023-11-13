@@ -8,8 +8,8 @@ const Layout = (props: any) => {
   const router = useRouter();
   const meta = {
     title: "OpenForumz",
-    description: `OpenForumz is a landing page template built with Nextjs and Tailwindcss`,
-    image: "/images/seo/OpenForumz-banner.png",
+    description: `OpenForumz - Our mission is to break down barriers, allowing users to actively shape and contribute to the evolution of their online space. Embrace the power of open source and be a catalyst for positive change in the digital realm.`,
+    image: "/images/hero/hero.png",
     type: "website",
     ...customMeta,
   };

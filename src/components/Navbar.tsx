@@ -28,8 +28,8 @@ export default function Navbar() {
                   <Link href="/">
                     <Image
                       className="block h-8 w-auto"
-                      src="/images/logos/logo-rose.svg"
-                      alt="Logo Your Company"
+                      src="/images/logos/logo.png"
+                      alt="OpenForumz"
                       width={150}
                       height={150}
                       quality={75}
