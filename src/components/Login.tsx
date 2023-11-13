@@ -18,7 +18,7 @@ export const Login = () => {
     await setLoginCookie();
     
     await router.replace('/');
-  }, [router]);
+  }, []);
 
   const uiConfig = {
     callbacks: {
@@ -35,7 +35,7 @@ export const Login = () => {
 
   useEffect(() => {
     setAuthWidget(<StyledFirebaseAuth uiConfig={uiConfig} firebaseAuth={getFirebaseAuth()} />);
-  }, [uiConfig])
+  }, [])
 
   return (<>
     {!!authWidget &&
