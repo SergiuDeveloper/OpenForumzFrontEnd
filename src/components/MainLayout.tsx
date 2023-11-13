@@ -53,7 +53,7 @@ const MainLayout = (props: any) => {
               />
               </Link>
 
-              <Link target="blank" href="https://github.com/SergiuDeveloper/OpenForumzFrontEnd">
+              <Link target="blank" href="https://github.com/SergiuDeveloper/OpenForumz">
               <Image
                 src="/images/logos/github.png"
                 alt="Github Icon"
