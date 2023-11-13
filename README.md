@@ -1,3 +1,6 @@
+# Live Product
+https://www.open-forumz.com
+
 # Installation
 
 ## 1. Install the NextJS app
