@@ -63,18 +63,6 @@ export default function Navbar() {
                 <div className="absolute inset-y-0 right-10 sm:right-0 flex items-center gap-2">
                   <ThemeSwitchButton />
                 </div>
-
-                <div className="absolute inset-y-0 right-0 flex items-center sm:hidden">
-                  {/* Mobile menu button*/}
-                  <Disclosure.Button className="inline-flex items-center justify-center rounded-md text-neutral-900 dark:text-white ">
-                    <span className="sr-only">Open main menu</span>
-                    {open ? (
-                      <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
-                    ) : (
-                      <Bars3Icon className="block h-6 w-6" aria-hidden="true" />
-                    )}
-                  </Disclosure.Button>
-                </div>
               </div>
             </div>
           </div>
