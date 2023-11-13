@@ -2,7 +2,7 @@ import Image from "next/image";
 import { ReactElement, useCallback, useEffect, useState } from "react";
 import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
 import { GoogleAuthProvider } from 'firebase/auth';
-import { getFirebaseAuth, setLoginCookie } from 'src/auth/auth';
+import { getFirebaseAuth, setLoginCookie } from '@/auth/auth';
 import { useRouter } from "next/router";
 import { Spinner } from "./Spinner";
 
