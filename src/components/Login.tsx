@@ -5,6 +5,7 @@ import { GoogleAuthProvider } from 'firebase/auth';
 import { getFirebaseAuth, setLoginCookie } from '@/auth/auth';
 import { useRouter } from "next/router";
 import { Spinner } from "./Spinner";
+import { registerUser } from "@/apiCalls/userApiCalls";
 
 export const Login = () => {
   const [authWidget, setAuthWidget] = useState<ReactElement<any, any> | null>(null);
@@ -16,6 +17,8 @@ export const Login = () => {
     setLoginLoading(true);
 
     await setLoginCookie();
+
+    await registerUser();
     
     await router.replace('/');
   }, []);
